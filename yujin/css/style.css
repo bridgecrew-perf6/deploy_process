@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+img {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.contents {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+h2 {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+}
+#greeting {
+  font-size: 3rem;
+}
+#todo-form input {
+  width: 25rem;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: 0;
+  height: 2.5rem;
+}
+#todo-form p {
+  font-size: 2rem;
+}
+#quote {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+}
+#weather {
+  position: absolute;
+  right: 0.7rem;
+  color: #fff;
+}
